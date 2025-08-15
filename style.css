@@ -1,0 +1,63 @@
+/* variables */
+:root {
+    --primary-color: yellow;
+    --secondary-color: #23883d;
+}
+
+/* reset */
+body,
+p,
+ul,
+a,
+li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+/* base styles */
+body {
+    background: var(--secondary-color);
+    overflow-x: hidden;
+}
+.button {
+    background: none;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+
+}
+
+/* fonts */
+
+/* mobile styles */
+
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+    /* Styles for small tablets */
+}
+
+/* large tablets and laptops styles */
+@media screen and (min-width: 960px) {
+    /* Styles for large tablets and laptops */
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+    /* Styles for desktop */
+}
+.big {
+    list-style-type: none;
+}
+.hhh{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+
